@@ -104,13 +104,13 @@
                                       </Group>
                                       <Component id="txtAlumno" alignment="0" min="-2" pref="325" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace type="separate" pref="140" max="32767" attributes="0"/>
+                                  <EmptySpace type="separate" pref="167" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                       <Component id="btEliminar" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btEditar" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btNuevo" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btGrabar" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btSalir" alignment="0" pref="110" max="32767" attributes="0"/>
+                                      <Component id="btSalir" alignment="0" max="32767" attributes="0"/>
                                       <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
