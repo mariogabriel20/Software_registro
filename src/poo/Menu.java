@@ -95,7 +95,6 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        btGrabar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Save_37110.png"))); // NOI18N
         btGrabar.setText("Grabar");
         btGrabar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,7 +164,7 @@ public class Menu extends javax.swing.JFrame {
                                         .addComponent(txtHoraE)
                                         .addComponent(txtRun))
                                     .addComponent(txtAlumno, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 149, Short.MAX_VALUE)
+                                .addGap(18, 167, Short.MAX_VALUE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(btEliminar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(btEditar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
