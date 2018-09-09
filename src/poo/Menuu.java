@@ -35,7 +35,7 @@ public class Menuu extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Menu Principal");
+        setTitle("Menú Principal");
         setResizable(false);
 
         jButton1.setText("Registrar");
