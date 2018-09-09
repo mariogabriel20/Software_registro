@@ -52,7 +52,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -80,29 +81,23 @@
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                              <Component id="txtHoraS" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtUtensilio" pref="325" max="32767" attributes="0"/>
-                                              <Component id="txtSala" max="32767" attributes="0"/>
-                                              <Component id="txtHoraE" max="32767" attributes="0"/>
-                                              <Component id="txtRun" max="32767" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="txtHoraS" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtUtensilio" pref="325" max="32767" attributes="0"/>
+                                          <Component id="txtSala" max="32767" attributes="0"/>
+                                          <Component id="txtHoraE" max="32767" attributes="0"/>
+                                          <Component id="txtRun" max="32767" attributes="0"/>
                                       </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="txtAlumno" min="-2" pref="325" max="-2" attributes="0"/>
-                                          <EmptySpace pref="39" max="32767" attributes="0"/>
-                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="txtAlumno" alignment="0" min="-2" pref="325" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" pref="140" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                       <Component id="btEliminar" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btEditar" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btNuevo" alignment="0" max="32767" attributes="0"/>
                                       <Component id="btGrabar" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btSalir" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Component id="btSalir" alignment="0" pref="110" max="32767" attributes="0"/>
+                                      <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -128,39 +123,41 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtAlumno" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btGrabar" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtSala" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btGrabar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtUtensilio" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btEditar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btNuevo" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtHoraE" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btEditar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtHoraS" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btSalir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="txtRun" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtRun" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btSalir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="60" max="32767" attributes="0"/>
+                  <EmptySpace pref="86" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -280,9 +277,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btGrabar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\Save_371100.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Grabar"/>
           </Properties>
           <Events>
@@ -291,9 +285,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btEditar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\DocumentEdit_40924.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Editar"/>
           </Properties>
           <Events>
@@ -302,9 +293,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btEliminar">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\delating-clipart-file-6.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
           </Properties>
           <Events>
@@ -313,9 +301,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btNuevo">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\new_page_document_16676.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
           </Properties>
           <Events>
@@ -324,9 +309,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btSalir">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\exit.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Salir"/>
           </Properties>
           <Events>
@@ -335,9 +317,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\beach\Downloads\grp__NM__bg__NM__inventario (1)(1).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Inventario"/>
           </Properties>
           <Events>
