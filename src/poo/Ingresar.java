@@ -173,6 +173,7 @@ public class Ingresar extends javax.swing.JFrame {
                 new Ingresar().setVisible(true);
             }
         });
+        //marako
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
