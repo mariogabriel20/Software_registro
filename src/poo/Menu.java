@@ -14,6 +14,7 @@ public class Menu extends javax.swing.JFrame {
         this.tm.addColumn("Utensilio");
         this.tm.addColumn("Hora Entrega");
         this.tm.addColumn("Hora Salida");
+        setLocationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")

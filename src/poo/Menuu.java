@@ -18,6 +18,7 @@ public class Menuu extends javax.swing.JFrame {
      */
     public Menuu() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
